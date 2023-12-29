@@ -1,856 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>JSDoc: Global</title>
 
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
-</head>
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css" />
+  </head>
 
-<body>
+  <body>
+    <div id="main">
+      <h1 class="page-title">Global</h1>
 
-<div id="main">
+      <section>
+        <header>
+          <h2></h2>
+        </header>
 
-    <h1 class="page-title">Global</h1>
+        <article>
+          <div class="container-overview">
+            <dl class="details"></dl>
+          </div>
 
-    
+          <h3 class="subsection-title">Members</h3>
 
+          <h4 class="name" id="MonitorJS">
+            <span class="type-signature"></span>MonitorJS<span class="type-signature"></span>
+          </h4>
 
+          <div class="description">
+            MonitorJS is a simple & flexible library for monitoring and analyzing data. It offers functionalities to
+            track, analyze, and set alerts based on monitored data.
+          </div>
 
+          <dl class="details">
+            <dt class="tag-version">Version:</dt>
+            <dd class="tag-version">
+              <ul class="dummy">
+                <li>1.0.0</li>
+              </ul>
+            </dd>
 
-<section>
+            <dt class="tag-author">Author:</dt>
+            <dd class="tag-author">
+              <ul>
+                <li>Mahdi Najafzadeh</li>
+              </ul>
+            </dd>
 
-<header>
-    
-        <h2></h2>
-        
-    
-</header>
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li><a href="index.js.html">index.js</a>, <a href="index.js.html#line9">line 9</a></li>
+              </ul>
+            </dd>
+          </dl>
 
-<article>
-    <div class="container-overview">
-    
-        
+          <h3 class="subsection-title">Type Definitions</h3>
 
-        
+          <h4 class="name" id="AlertSchema">AlertSchema</h4>
 
+          <div class="description">Represents the schema for defining alerts in MonitorJS.</div>
 
-<dl class="details">
+          <h5>Type:</h5>
+          <ul>
+            <li>
+              <span class="param-type">Object</span>
+            </li>
+          </ul>
 
-    
+          <h5 class="subsection-title">Properties:</h5>
 
-    
+          <table class="props">
+            <thead>
+              <tr>
+                <th>Name</th>
 
-    
+                <th>Type</th>
 
-    
+                <th>Attributes</th>
 
-    
+                <th class="last">Description</th>
+              </tr>
+            </thead>
 
-    
+            <tbody>
+              <tr>
+                <td class="name"><code>name</code></td>
 
-    
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
 
-    
+                <td class="attributes"></td>
 
-    
+                <td class="description last">The name of the alert (required).</td>
+              </tr>
 
-    
+              <tr>
+                <td class="name"><code>condition</code></td>
 
-    
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
 
-    
+                  <span class="param-type">function</span>
+                </td>
 
-    
+                <td class="attributes"></td>
 
-    
+                <td class="description last">
+                  The condition for triggering the alert, either a string from predefined conditions or a custom
+                  function (required).
+                </td>
+              </tr>
 
-    
+              <tr>
+                <td class="name"><code>value</code></td>
 
-    
-</dl>
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
 
+                <td class="attributes"></td>
 
-        
-    
+                <td class="description last">The value used in the comparison for triggering the alert (required).</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>function</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last">An optional custom function associated with the alert.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>times</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array.&lt;string></span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last">An array of time units for which the alert should be checked.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li><a href="index.js.html">index.js</a>, <a href="index.js.html#line54">line 54</a></li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h4 class="name" id="ItemSchema">ItemSchema</h4>
+
+          <div class="description">Represents the schema for defining items in MonitorJS.</div>
+
+          <h5>Type:</h5>
+          <ul>
+            <li>
+              <span class="param-type">Object</span>
+            </li>
+          </ul>
+
+          <h5 class="subsection-title">Properties:</h5>
+
+          <table class="props">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th>Default</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>name</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last">The name of the item (required).</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>setter</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default"></td>
+
+                <td class="description last">The function used to set or retrieve the value of the item.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>interval</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">1000</td>
+
+                <td class="description last">The interval in milliseconds for updating the item's value.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>alerts</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array.&lt;<a href="global.html#AlertSchema">AlertSchema</a>></span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">[]</td>
+
+                <td class="description last">
+                  An array of alerts associated with the item, defined by the AlertSchema.
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>times</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array.&lt;string></span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">[]</td>
+
+                <td class="description last">An array of time units for checking alerts associated with the item.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>max</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">100</td>
+
+                <td class="description last">The maximum value threshold for the item.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>min</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">0</td>
+
+                <td class="description last">The minimum value threshold for the item.</td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>bufferSize</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">200</td>
+
+                <td class="description last">The size of the buffer storing historical values for the item.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li><a href="index.js.html">index.js</a>, <a href="index.js.html#line75">line 75</a></li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
+      </section>
     </div>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Members</h3>
-
-        
-            
-<h4 class="name" id="MonitorJS"><span class="type-signature"></span>MonitorJS<span class="type-signature"></span></h4>
-
-
-
-
-<div class="description">
-    MonitorJS is a simple & flexible library for monitoring and analyzing data.
-             It offers functionalities to track, analyze, and set alerts based on monitored data.
-</div>
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-    <dt class="tag-version">Version:</dt>
-    <dd class="tag-version"><ul class="dummy"><li>1.0.0</li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-author">Author:</dt>
-    <dd class="tag-author">
-        <ul>
-            <li>Mahdi Najafzadeh</li>
-        </ul>
-    </dd>
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line9">line 9</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-        
-    
-
-    
-
-    
-        <h3 class="subsection-title">Type Definitions</h3>
-
-        
-                
-<h4 class="name" id="AlertSchema">AlertSchema</h4>
-
-
-
-
-<div class="description">
-    Represents the schema for defining alerts in MonitorJS.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Object</span>
-
-
-        </li>
-    </ul>
-
-
-
-
-
-    <h5 class="subsection-title">Properties:</h5>
-
-    
-
-<table class="props">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Attributes</th>
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>name</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">The name of the alert (required).</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>condition</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-|
-
-<span class="param-type">function</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">The condition for triggering the alert, either a string from predefined conditions or a custom function (required).</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>value</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">The value used in the comparison for triggering the alert (required).</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>function</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">An optional custom function associated with the alert.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>times</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;string></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-
-            <td class="description last">An array of time units for which the alert should be checked.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line54">line 54</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-            
-                
-<h4 class="name" id="ItemSchema">ItemSchema</h4>
-
-
-
-
-<div class="description">
-    Represents the schema for defining items in MonitorJS.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Object</span>
-
-
-        </li>
-    </ul>
-
-
-
-
-
-    <h5 class="subsection-title">Properties:</h5>
-
-    
-
-<table class="props">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Attributes</th>
-        
-
-        
-        <th>Default</th>
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>name</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                </td>
-            
-
-            <td class="description last">The name of the item (required).</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>setter</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                </td>
-            
-
-            <td class="description last">The function used to set or retrieve the value of the item.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>interval</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    1000
-                
-                </td>
-            
-
-            <td class="description last">The interval in milliseconds for updating the item's value.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>alerts</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;<a href="global.html#AlertSchema">AlertSchema</a>></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    []
-                
-                </td>
-            
-
-            <td class="description last">An array of alerts associated with the item, defined by the AlertSchema.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>times</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;string></span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    []
-                
-                </td>
-            
-
-            <td class="description last">An array of time units for checking alerts associated with the item.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>max</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    100
-                
-                </td>
-            
-
-            <td class="description last">The maximum value threshold for the item.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>min</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    0
-                
-                </td>
-            
-
-            <td class="description last">The minimum value threshold for the item.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>bufferSize</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    200
-                
-                </td>
-            
-
-            <td class="description last">The size of the buffer storing historical values for the item.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line75">line 75</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-            
-    
-
-    
-</article>
-
-</section>
-
-
-
-
-</div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="global.html#MonitorJS">MonitorJS</a></li></ul><h3><a href="global.html">Global</a></h3>
-</nav>
-
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Fri Dec 29 2023 21:04:16 GMT+0330 (Iran Standard Time)
-</footer>
-
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
-</body>
+    <nav>
+      <h2><a href="index.html">Home</a></h2>
+      <h3>Classes</h3>
+      <ul>
+        <li><a href="global.html#MonitorJS">MonitorJS</a></li>
+      </ul>
+      <h3><a href="global.html">Global</a></h3>
+    </nav>
+
+    <br class="clear" />
+
+    <footer>
+      Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Fri Dec 29 2023 21:04:16
+      GMT+0330 (Iran Standard Time)
+    </footer>
+
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/linenumber.js"></script>
+  </body>
 </html>
