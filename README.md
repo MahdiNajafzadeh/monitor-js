@@ -255,6 +255,9 @@ const monitor = new MonitorJS(items)
 monitor.start()
 ```
 
+## Documention
+
+See Full Documetion from this [Page](https://mahdinajafzadeh.github.io/monitor-js/)
 
 ## Contributing
 We welcome contributions from the community! Fork the repository, make your changes, and submit a pull request.
