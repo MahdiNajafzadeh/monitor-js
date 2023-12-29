@@ -1,4 +1,4 @@
-const MonitorJS = require("./MonitorJS");
+const MonitorJS = require("../index");
 const os = require("os");
 
 function getCPUUsage() {
