@@ -1,6 +1,6 @@
 {
   "name": "fast-monitor-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and flexible library for monitoring data in JavaScript.",
   "main": "index.js",
   "scripts": {},
