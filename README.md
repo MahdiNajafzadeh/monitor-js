@@ -261,7 +261,3 @@ We welcome contributions from the community! Fork the repository, make your chan
 
 ## License
 This project is licensed under the GNU License - see the LICENSE file for details.
-
-## Acknowledgements
-Mention any contributors or third-party libraries used
-If applicable, acknowledge any inspiration or resources used in the development
