@@ -9,7 +9,6 @@ const joiFunction = joi
 /**
  * @name MonitorJS
  * @author Mahdi Najafzadeh
- * @external https://github.com/MahdiNajafzadeh
  * @description MonitorJS is a simple & flexible library for monitoring and analyzing data.
  *              It offers functionalities to track, analyze, and set alerts based on monitored data.
  * @version 1.0.0
