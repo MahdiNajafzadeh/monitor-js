@@ -15,18 +15,18 @@ You can install Monitor.JS from this ways
 
 via NPM:
 ```bash
-npm install monitor-js
+npm install fast-monitor-js
 ```
 YARN:
 ```bash
-yarn add monitor-js
+yarn add fast-monitor-js
 ```
 
 ## Usage
 
 ### Example 1
 ```javascript
-const MonitorJS = require('monitor-js');
+const MonitorJS = require('fast-monitor-js');
 
 // Define an item to monitor
 const itemToMonitor = {
@@ -54,7 +54,7 @@ setTimeout(() => {
 
 ### Example 2 
 ```javascript
-const MonitorJS = require('monitor-js');
+const MonitorJS = require('fast-monitor-js');
 
 // Define an item with an alert for high CPU usage
 const cpuMonitorItem = {
@@ -87,7 +87,7 @@ monitor.start();
 
 Example 3: Custom Alert Action
 ```javascript
-const MonitorJS = require('monitor-js');
+const MonitorJS = require('fast-monitor-js');
 
 // Define an item with a custom alert action for fluctuating stock prices
 const stockMonitorItem = {
@@ -123,7 +123,7 @@ This example monitors stock prices and performs a custom alert action by adjusti
 Example 4: Dynamic Threshold Adjustment
 
 ```javascript
-const MonitorJS = require('monitor-js');
+const MonitorJS = require('fast-monitor-js');
 
 // Define an item with dynamic threshold adjustment based on historical data
 const dynamicThresholdItem = {
@@ -197,7 +197,7 @@ This example demonstrates how MonitorJS can be used to monitor CPU and RAM usage
 ### Code 
 
 ```javascript
-const MonitorJS = require("monitor-js");
+const MonitorJS = require("fast-monitor-js");
 const os = require("os");
 
 function getCPUUsage() {

@@ -1,12 +1,12 @@
 {
-  "name": "monitor-js",
-  "version": "1.0.0",
+  "name": "fast-monitor-js",
+  "version": "1.0.1",
   "description": "A simple and flexible library for monitoring data in JavaScript.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/MahdiNajafzadeh/monitor-js.git"
+    "url": "git+https://github.com/MahdiNajafzadeh/monitor-js.git"
   },
   "keywords": [
     "Monitoring",
